@@ -1,0 +1,10 @@
+<?php
+/**
+ * @var \Magestio\Whatsapp\Block\WHatsapp $block
+ */
+    $phone  = $block->getTelephone();
+    $text   = $block->getText();
+?>
+<a class="whatsapp-link" target="_blank" href='https://api.whatsapp.com/send?phone=<?php echo $phone?>&text=<?php echo $text ?>'>
+<i class="fab fa-whatsapp"></i>
+</a>
