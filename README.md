@@ -16,6 +16,7 @@ Add a contact button to the bottom of the page that links to your whatsapp.
 * Create app/code/Magestio/Whatsapp directory
 * Copy the contents to app/code/Magestio/Whatsapp
 
+* Install Magestio Core ( https://github.com/MagestioEcommerce/core )
 
 ### Enable the extensions
 
